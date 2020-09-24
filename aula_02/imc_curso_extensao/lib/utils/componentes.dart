@@ -5,14 +5,15 @@ class Componentes {
       String rotulo, String dica, TextEditingController controlador, validacao,
       {bool obscure = false, bool numero = false}) {
     return TextFormField(
-      controller: controlador,
-      obscureText: obscure,
+      controller:
+          controlador, // armazena as informações inseridas no componente
+      obscureText: obscure, // mascara de senha
       validator: validacao,
       keyboardType: numero ? TextInputType.number : TextInputType.text,
       decoration: InputDecoration(
         labelText: rotulo,
         labelStyle: TextStyle(fontSize: 18),
-        hintText: dica,
+        hintText: dica, // placeholder
         hintStyle: TextStyle(fontSize: 10, color: Colors.red),
       ),
     );
