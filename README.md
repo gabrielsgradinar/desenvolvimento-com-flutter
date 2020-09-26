@@ -9,3 +9,5 @@ Códigos desenvolvidos durante o curso de extensão de **Desenvolvimento de Apli
 
 - Consumo de APIs com flutter
 
+- [Exercícios](/exercicios)
+
