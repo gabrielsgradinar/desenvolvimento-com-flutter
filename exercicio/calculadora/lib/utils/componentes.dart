@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class Componentes {
   static botaoIcone(Function _f, dynamic tipoIcone,
-      {String texto, double tamanho}) {
+      {String texto, double tamanho, Image imagem}) {
     return IconButton(
-      icon: Icon(tipoIcone),
+      icon: imagem != null ? imagem : Icon(tipoIcone),
       tooltip: texto,
       onPressed: _f,
       iconSize: tamanho != null ? tamanho : 30,

@@ -81,7 +81,9 @@ class _MyAppState extends State<MyApp> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(20, 16, 20, 16),
                   child: Componentes.botaoIcone(divisao, Icons.build,
-                      texto: "Dividir"), // divisão
+                      texto: "Dividir",
+                      imagem: Image.asset('images/divisao_icon.png'),
+                      tamanho: 28), // divisão
                 ),
               ],
             ),
