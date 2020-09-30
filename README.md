@@ -7,7 +7,7 @@ Códigos desenvolvidos durante o curso de extensão de **Desenvolvimento de Apli
 
 - [Widgets e exemplos com Flutter](/aula_02/imc_curso_extensao)
 
-- Consumo de APIs com flutter
+- [Consumo de APIs com flutter](/aula_03)
 
 - [Exercícios](/exercicio)
 
