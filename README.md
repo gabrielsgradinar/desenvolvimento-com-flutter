@@ -1,5 +1,5 @@
 # Desenvolvimento de Aplicativos com Flutter
-Códigos desenvolvidos durante o curso de extensão de **Desenvolvimento de Aplicativos com Flutter** ministrado pelo Professor Clávison Zapelini. 
+Códigos desenvolvidos durante o curso de extensão de **Desenvolvimento de Aplicativos com Flutter** ministrado pelo [Professor Clávison Zapelini](https://www.linkedin.com/in/clavison-zapelini). 
 <br>
 ### Conteúdo do curso:
 
