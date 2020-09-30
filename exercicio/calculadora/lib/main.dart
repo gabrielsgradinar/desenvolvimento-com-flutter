@@ -131,19 +131,19 @@ class _MyAppState extends State<MyApp> {
       info = "Resultado =";
 
       if (op == "+") {
-        info = "Resultado = ${n1 + n2}";
+        info = "Resultado da soma = ${n1 + n2}";
       }
 
       if (op == "-") {
-        info = "Resultado = ${n1 - n2}";
+        info = "Resultado da subtração = ${n1 - n2}";
       }
 
       if (op == "*") {
-        info = "Resultado = ${n1 * n2}";
+        info = "Resultado da multiplicação = ${n1 * n2}";
       }
 
       if (op == "/") {
-        info = "Resultado = ${(n1 / n2).toStringAsPrecision(2)}";
+        info = "Resultado da divisão = ${(n1 / n2).toStringAsPrecision(2)}";
       }
     });
   }
