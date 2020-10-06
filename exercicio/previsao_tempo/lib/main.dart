@@ -40,19 +40,20 @@ class _MyAppState extends State<MyApp> {
     if (!cForm.currentState.validate()) return null;
 
     String url =
-        "https://api.hgbrasil.com/weather?key=29748d2c&city_name=${cidadeController.text}";
+        "https://api.hgbrasil.com/weather?key=82174d0d&city_name=${cidadeController.text}";
     var encodedUrl = Uri.encodeFull(url);
     Response resposta = await get(encodedUrl);
     Map body = jsonDecode(resposta.body);
 
     setState(() {
-      temperatura = temperatura + ' ' + body['results']['temp'];
-      data = data + ' ' + body['results']['date'];
-      hora = hora + ' ' + body['results']['time'];
-      descricao = descricao + ' ' + body['results']['wind_speedy'];
-      cidade = cidade + ' ' + body['results']['city_name'];
+      temperatura =
+          'Temperatura: ' + body['results']['temp'].toString() + ' °C';
+      data = 'Data: ' + body['results']['date'].toString();
+      hora = 'Hora: ' + body['results']['time'].toString();
+      descricao = 'Descrição: ' + body['results']['description'].toString();
+      cidade = 'Cidade: ' + body['results']['city_name'].toString();
       velocidadeDoVento =
-          velocidadeDoVento + ' ' + body['results']['city_name'];
+          'Velocidade do Vento: ' + body['results']['wind_speedy'].toString();
     });
   }
 
