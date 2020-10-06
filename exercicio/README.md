@@ -1,7 +1,5 @@
 # Exercícios
 
 - [Calculadora](/exercicio/calculadora)
+- [Previsão do Tempo](/exercicio/previsao_tempo)
 
-    <img src="prints/calculadora.png"
-        alt="Tela Principal IMC"
-        style="float: left; margin-right: 10px;" width=200 />
